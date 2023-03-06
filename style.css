@@ -1,0 +1,134 @@
+body
+{
+    background-color: #6FEEFF;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler{
+    padding: 1px;
+}
+
+#inicio
+{
+    margin-top: 1cm;
+    margin-left: 20px;
+}
+a{
+    color: black;
+}
+
+header
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1cm;
+    background-color: #FFA723;
+}
+.card
+{
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: #FFA723;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img
+{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+}
+.card p
+{
+    margin: 0rem ;
+    font-size: 1.2rem;
+}
+footer
+{
+    background-color: #FFA723;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#link li
+{
+    margin: 0.2rem ;
+}
+#link li a
+{
+    font-size: 1.50rem;
+    text-decoration: none;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1cm;
+}
+#link
+{
+    position: absolute;
+}
+#link li a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+h2
+{
+    font-size: 2.5rem;
+    color: var(--azul-escuro);
+    margin: 0.5rem;
+}
+h3
+{
+    font-size: 1.6rem;
+    color: var(--cinza-azulado);
+    margin: 0.5rem;
+}
+section a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--azul-escuro);
+    margin: 1rem 0;
+}
+section a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.title
+{
+    margin-top: 1cm;
+}
+@media screen and (min-width: 900px)
+{
+#link
+{
+    width: 50rem;
+    display: flex;
+    justify-content: flex-end;
+}
+#link li
+{
+    margin-left: 2.3rem;
+}    
+.card
+{
+    margin: 1rem auto;
+      width: 22%;
+}
+}
